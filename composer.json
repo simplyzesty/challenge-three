@@ -1,0 +1,17 @@
+{
+    "name": "zesty/challenge",
+    "description": "Simple composer file to provide autoloading for Zesty Challenge",
+    "type": "project",
+    "require": {
+        "php": "^7.4||^8.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
